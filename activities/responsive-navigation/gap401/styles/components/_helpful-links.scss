@@ -1,0 +1,14 @@
+$className: 'helpful-links';
+
+.#{$className} {
+
+  &__list {
+    margin-top: $spacing-sm;
+    padding-right: $spacing-xs;
+    padding-left: $spacing-xs;
+    
+    &__item {
+      margin-top: $spacing-xs;
+    }
+  }
+}

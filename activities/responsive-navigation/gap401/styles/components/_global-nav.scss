@@ -1,0 +1,27 @@
+$className: 'global-nav';
+
+.#{$className} {
+  padding-top: $spacing-sm;
+  padding-bottom: $spacing-sm;
+  box-shadow: 0 2px 25px rgba(0,0,0,0.5);
+
+  &__list {
+    @include container('lg');
+    display: flex;
+
+    @media only screen and (min-width: $screen-sm-min) {
+      @include container('md');
+    }
+
+    @media only screen and (min-width: $screen-md-min) {
+      @include container('sm');
+    }
+
+    &__item {
+
+      &:not(:first-of-type) {
+        margin-left: $spacing-md;
+      }
+    }
+  }
+}
