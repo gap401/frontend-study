@@ -1,8 +1,8 @@
 # Summary
 
-A repository of small-medium frontend projects to study & re-create for practice using semantic html & css best practices and tricks. I've created this repository to work in tandem and follow along with a new study group I've started in my local community. I'm trying to make it as self-explanatory as possible so others that simply view the repo from elsewhere will still be able to gain value from it. *The repo is still a work in progress. Aiming to have it more finalized by 3/3.*
+A repository of small-medium frontend projects to study & re-create for practice using semantic html & css best practices and tricks. I've created this repository to work in tandem with a new study group I've started in my local community. I'm trying to make it as self-explanatory as possible so others that simply view the repo from elsewhere will still be able to gain value from it.
 
-![Repo Resource Percentage](https://i.imgur.com/LFFepW2.png "Repo Resource Percentage")
+![Repo Resource Percentage](https://i.imgur.com/jUJZcYk.png "Repo Resource Percentage")
 
 ## Things this repo focuses on
 
@@ -42,9 +42,16 @@ A repository of small-medium frontend projects to study & re-create for practice
 ```bash
 ├── activities                 # Directory that holds all of the Activities
 │   └── responsive-navigation  # Directory for Activity 1: Responsive Navigation
+│   │   ├── example            # Directory with example code if you choose to reference it, try not to until you have to!
+│   │   ├── starter-files      # Directory with a basic file setup to get you started with the activity
+│   │   └── index.html         # Index html page for the Responsive Navigation activity
+│   └── css-dragonball         # Directory for Activity 2: CSS Dragonball
+│   │   ├── example            # Directory with example code if you choose to reference it, try not to until you have to!
+│   │   └── index.html         # Index html page for the CSS Dragonball activity
+│   └── scss-and-bem           # Directory for Activity 3: Learn SCSS and BEM
 │       ├── example            # Directory with example code if you choose to reference it, try not to until you have to!
 │       ├── starter-files      # Directory with a basic file setup to get you started with the activity
-│       └── index.html         # Index html page for the Responsive Navigation activity
+│       └── index.html         # Index html page for the CSS Dragonball activity
 ├── styles                     # Directory with our main style Architecture (This affects everything but the activity example and starter files)
 │   ├── components             # Subdirectory with components
 │   │   ├── _activities.js     # Styles for activity pages
